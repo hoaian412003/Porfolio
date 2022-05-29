@@ -1,0 +1,19 @@
+#cat-background{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: 0;
+    #cat-gif{
+        width: 20rem;
+        height: 20rem;
+        border-radius: 100000px;
+        top: 50%;
+        right: 10%;
+        transform: translatey(-50%);
+        position: absolute;
+        box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+        user-select: none;
+    }
+}

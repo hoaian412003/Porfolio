@@ -1,0 +1,17 @@
+#content-container{
+    width: 40%;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    z-index: 1;
+    #contact-btn{
+        background-color: #6c55e1;
+        color: white;
+        &:hover{
+            transform: scale(1.1);
+            background-color: black;
+            transition: background-color 1s;
+            transition: transform 1s;
+        }
+    }
+}

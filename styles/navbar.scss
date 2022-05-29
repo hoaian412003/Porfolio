@@ -1,0 +1,11 @@
+#navbar-container{
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    user-select: none;
+    #active{
+        color: #8f83c7;
+    }
+}
